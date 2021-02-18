@@ -7,4 +7,11 @@ Put url of Mongo cluster with username and password in config.json. <br>
 
 To enter a record
 > new(service name, email, user name, password)
+<p>&nbsp;</p>
+
+To search a record
+> search(search term)
+<p>&nbsp;</p>
+
+
 
