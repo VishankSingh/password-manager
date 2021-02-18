@@ -64,6 +64,14 @@ while True:
         for result in results:
             if term in result["service"]:
                 print(f'Service: {result["service"]}\nEmail: {result["email"]}\nUsername: {result["username"]}\nPassword: {result["password"]}')
+
+            elif term in result["email"]:
+                print(f'Service: {result["service"]}\nEmail: {result["email"]}\nUsername: {result["username"]}\nPassword: {result["password"]}')
+                
+            elif term in result["username"]:
+                print(f'Service: {result["service"]}\nEmail: {result["email"]}\nUsername: {result["username"]}\nPassword: {result["password"]}')
+
+
        
 
 
