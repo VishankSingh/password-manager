@@ -63,7 +63,7 @@ while True:
         results =  collection.find({})
         for result in results:
             if term in result["service"]:
-                print(f'''Service: {result["service"]}\nEmail: {result["email"]}\nUsername: {result["username"]}\nPassword: {result["password"]}''')
+                print(f'Service: {result["service"]}\nEmail: {result["email"]}\nUsername: {result["username"]}\nPassword: {result["password"]}')
        
 
 
